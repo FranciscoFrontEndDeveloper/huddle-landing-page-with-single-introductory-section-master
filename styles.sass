@@ -8,17 +8,20 @@
  grid-template-columns: 1fr
  grid-template-rows: 1fr auto
  background-image: url(./images/bg-mobileV2.png)
+ overflow: auto
 .containerMain
  grid-column: 1/2
  display: grid
  grid-template-columns: 1fr
  grid-template-rows: repeat(6,auto )
  padding: 30px
+ row-gap: 20px
  div
   grid-column: 1/2
  div:nth-child(1)
   grid-row: 1/2
   img
+   overflow: hidden
    width: 50%
    height: 100%
  div:nth-child(2)
@@ -64,7 +67,17 @@
    padding: 5px 60px
    text-transform: capitalize
  div:nth-child(6)
+  display: grid
+  grid-template-columns: repeat(3,auto )
   grid-row: 6/7
+  justify-content: center
+  column-gap: 10px
+  input
+   width: 15px
+   height: 15px
+   border: 1px solid #fff
+   border-radius: 50%
+   padding: 5px
 //<!-- '[grid mobile end]' -->
 
 //<!-- '[grid tablet start]' -->
