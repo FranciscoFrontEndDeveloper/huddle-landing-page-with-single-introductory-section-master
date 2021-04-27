@@ -27,6 +27,10 @@
 .containerMain div:nth-child(2) {
   grid-row: 2/3;
 }
+.containerMain div:nth-child(2) img {
+  width: 100%;
+  height: auto;
+}
 .containerMain div:nth-child(3) {
   grid-row: 3/4;
 }
