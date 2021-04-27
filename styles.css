@@ -1,3 +1,5 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+@import url(https://fonts.google.com/specimen/Open+Sans);
 .Main {
   width: 100%;
   height: 100vh;
@@ -22,23 +24,57 @@
 }
 .containerMain div:nth-child(1) img {
   width: 50%;
-  height: auto;
+  height: 100%;
 }
 .containerMain div:nth-child(2) {
   grid-row: 2/3;
 }
 .containerMain div:nth-child(2) img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 .containerMain div:nth-child(3) {
   grid-row: 3/4;
 }
+.containerMain div:nth-child(3) h1 {
+  color: #fff;
+  font-weight: 600;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  text-align: center;
+}
 .containerMain div:nth-child(4) {
   grid-row: 4/5;
+  display: grid;
+  justify-items: center;
+}
+.containerMain div:nth-child(4) p {
+  margin: 0;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 13px;
+  width: 95%;
+  height: 100%;
+  line-height: 1.5;
 }
 .containerMain div:nth-child(5) {
+  display: grid;
+  justify-items: center;
   grid-row: 5/6;
+}
+.containerMain div:nth-child(5) input {
+  border-radius: 40px;
+  background: #fff;
+  border: none;
+  color: #674baf;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  padding: 5px 60px;
+  text-transform: capitalize;
 }
 .containerMain div:nth-child(6) {
   grid-row: 6/7;
