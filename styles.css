@@ -1,1 +1,57 @@
-/*# sourceMappingURL=styles.css.map */
+.Main {
+  background: #ccc;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+}
+
+.containerMain {
+  grid-column: 1/2;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, auto);
+  border: 1px solid red;
+  padding: 30px;
+}
+.containerMain div {
+  grid-column: 1/2;
+}
+.containerMain div:nth-child(1) {
+  grid-row: 1/2;
+}
+.containerMain div:nth-child(2) {
+  grid-row: 2/3;
+}
+.containerMain div:nth-child(3) {
+  grid-row: 3/4;
+}
+.containerMain div:nth-child(4) {
+  grid-row: 4/5;
+}
+.containerMain div:nth-child(5) {
+  grid-row: 5/6;
+}
+.containerMain div:nth-child(6) {
+  grid-row: 6/7;
+}
+
+.containerFooter {
+  display: grid;
+  justify-items: center;
+  background: #000;
+  width: 100%;
+}
+.containerFooter p {
+  color: #fff;
+  text-align: center;
+}
+.containerFooter a {
+  color: #FF3F00;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.containerFooter:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=styles.css.map */
