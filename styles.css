@@ -20,6 +20,10 @@
 .containerMain div:nth-child(1) {
   grid-row: 1/2;
 }
+.containerMain div:nth-child(1) img {
+  width: 50%;
+  height: auto;
+}
 .containerMain div:nth-child(2) {
   grid-row: 2/3;
 }
