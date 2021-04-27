@@ -193,4 +193,7 @@
 }
 .containerFooter:hover {
   text-decoration: underline;
+}
+.containerFooter a:last-child {
+  text-transform: lowercase;
 }/*# sourceMappingURL=styles.css.map */
